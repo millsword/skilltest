@@ -1,0 +1,239 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+    <meta charset="utf-8" /> 
+    <title>幸福进化俱乐部-个人技能测试</title> 
+    <meta name="keywords" content="幸福进化俱乐部 个人技能测试" /> 
+    <meta name="description" content="幸福进化俱乐部 个人技能测试" /> 
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="styles/common.css" rel="stylesheet" type="text/css"/>
+    
+</head> 
+
+<body> 
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div id="header"><img src="image/logo.png" /></div>
+                <div id="navigation"></div>
+                <br />
+                <div id="testName"><h1>个人技能测试平台</h1></div>
+                <br /><br /><br />
+                <div id="loginPage">
+                    <h3>欢迎来到幸福进化俱乐部个人技能测试平台</h3>
+                    <br /><br />
+                    <div class="input-group" id="loginInput">
+                        <input id="textLogin" type="text" name="testCode" class="form-control" placeholder="测试码" >
+                        <span class="input-group-btn">
+                            <button class="btn btn-default" id="btnLongin" type="button">进入测试</button>
+                        </span>
+                    </div>                                        
+                </div>
+                <div id="testPage">
+                    <div id="quesArea">
+                        <div id="ques">
+                            <h4 id="quesTitle">【执行】根据制度、规定或计划采取准确的行动</h4>
+                            <ul id="quesUl"> 
+                                <li><input id="radio1" type="radio" name="opt" value="0"><label for="radio1" id="quesOpt0">A.很愿意使用</label></li>
+                                <li><input id="radio2" type="radio" name="opt" value="1"><label for="radio2" id="quesOpt1">B.比较愿意使用</label></li>
+                                <li><input id="radio3" type="radio" name="opt" value="2"><label for="radio3" id="quesOpt2">C.不大愿意使用</label></li>
+                                <li><input id="radio4" type="radio" name="opt" value="3"><label for="radio4" id="quesOpt3">D.很不愿意使用</label></li>
+                            </ul>
+                        </div>
+                        <br /><br /><br />
+                        <div class="progress">
+                            <div id="progress-bar" class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 0%;">
+                            </div>
+                        </div>
+                    </div>             
+                </div>
+                <div id="resultPage">
+                    <ul class="nav nav-tabs">
+                        <li class="active"><a href="#panel-574054" data-toggle="tab">测试结果</a></li>
+                        <li><a href="#panel-8961" data-toggle="tab">优势区</a></li>
+                        <li><a href="#panel-8962" data-toggle="tab">潜能区</a></li>
+                        <li><a href="#panel-8963" data-toggle="tab">退路区</a></li>
+                        <li><a href="#panel-8964" data-toggle="tab">盲区</a></li>
+                    </ul>
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="panel-574054">
+                            <h3 align="center">测试结果</h3>
+                            <table class="resultTable">
+                                <tbody>
+                                    <tr>
+                                        <th class="trTitle">胜任/意愿</th>
+                                        <th class="trTitle">A.很愿意使用</th>
+                                        <th class="trTitle">B.比较愿意使用</th>
+                                        <th class="trTitle">C.不大愿意使用</th>
+                                        <th class="trTitle">D.很不愿意使用</th>
+                                    </tr>
+                                    <tr>
+                                        <th>1.非常擅长</th>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <th>2.比较擅长</th>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <th>3.有些费力</th>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <th>4.不能胜任</th>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="tab-pane" id="panel-8961">
+                            <h3 align="center">优势区（AB+12）</h3>
+                            <table class="abilityTable1">
+                                <tbody>
+                                    <tr class="willTitle">
+                                        <th>A.很愿意使用</th>
+                                        <th>B.比较愿意使用</th>
+                                        <th>A.很愿意使用</th>
+                                        <th>B.比较愿意使用</th>
+                                    </tr>
+                                    <tr class="talentTitle">
+                                        <th>1.非常擅长</th>
+                                        <th>1.非常擅长</th>
+                                        <th>2.比较擅长</th>
+                                        <th>2.比较擅长</th>
+                                    </tr>
+                                    <tr class="trAbility">
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr class="trBlank">
+                                        <td><br /></td>
+                                        <td><br /></td>
+                                        <td><br /></td>
+                                        <td><br /></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="tab-pane" id="panel-8962">
+                            <h3 align="center">潜能区（AB+34）</h3>
+                            <table class="abilityTable2">
+                                <tbody>
+                                    <tr class="willTitle">
+                                        <th>A.很愿意使用</th>
+                                        <th>B.比较愿意使用</th>
+                                        <th>A.很愿意使用</th>
+                                        <th>B.比较愿意使用</th>
+                                    </tr>
+                                    <tr class="talentTitle">
+                                        <th>3.有些费力</th>
+                                        <th>3.有些费力</th>
+                                        <th>4.不能胜任</th>
+                                        <th>4.不能胜任</th>
+                                    </tr>
+                                    <tr class="trAbility">
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr class="trBlank">
+                                        <td><br /></td>
+                                        <td><br /></td>
+                                        <td><br /></td>
+                                        <td><br /></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="tab-pane" id="panel-8963">
+                            <h3 align="center">退路区（CD+12）</h3>
+                            <table class="abilityTable3">
+                                <tbody>
+                                    <tr class="willTitle">
+                                        <th>C.不大愿意使用</th>
+                                        <th>D.很不愿意使用</th>
+                                        <th>C.不大愿意使用</th>
+                                        <th>D.很不愿意使用</th>
+                                    </tr>
+                                    <tr class="talentTitle">
+                                        <th>1.非常擅长</th>
+                                        <th>1.非常擅长</th>
+                                        <th>2.比较擅长</th>
+                                        <th>2.比较擅长</th>
+                                    </tr>
+                                    <tr class="trAbility">
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr class="trBlank">
+                                        <td><br /></td>
+                                        <td><br /></td>
+                                        <td><br /></td>
+                                        <td><br /></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="tab-pane" id="panel-8964">
+                            <h3 align="center">盲区（CD+34）</h3>
+                            <table class="abilityTable4">
+                                <tbody>
+                                    <tr class="willTitle">
+                                        <th>C.不大愿意使用</th>
+                                        <th>D.很不愿意使用</th>
+                                        <th>C.不大愿意使用</th>
+                                        <th>D.很不愿意使用</th>
+                                    </tr>
+                                    <tr class="talentTitle">
+                                        <th>3.有些费力</th>
+                                        <th>3.有些费力</th>
+                                        <th>4.不能胜任</th>
+                                        <th>4.不能胜任</th>
+                                    </tr>
+                                    <tr class="trAbility">
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr class="trBlank">
+                                        <td><br /></td>
+                                        <td><br /></td>
+                                        <td><br /></td>
+                                        <td><br /></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <br /><br />
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="scripts/jquery-2.1.3.js"></script>
+    <script type="text/javascript" src = "bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="scripts/common.js"></script>
+</body> 
+</html> 
+
+
+
+ 

@@ -1,0 +1,137 @@
+@charset "utf-8"; 
+/* DIVCSS5 - www.divcss5.com */ 
+/* \5B8B\4F53 宋体 更多中文字体
+转换Unicode编码表网址 http://www.divcss5.com/jiqiao/j325.shtml 
+ 
+body{color:#000000;background:#FFF; text-align:center;} 
+.clear{clear:both;height:1px;width:100%;
+ overflow:hidden; margin-top:-1px;} 
+a{color:#000000;text-decoration:none; }  
+a:hover{color:#F00;} 
+ 
+.red ,.red a{ color:#F00;} 
+.blue ,.blue a{ color:#1E51A2;} 
+ 
+.lf{float:left;} 
+.rt{float:right;} 
+ 
+.pt5{padding-top:5px;} 
+.pb5{padding-bottom:5px;} 
+ 
+#header ,#main ,#footer{ margin:0 auto;
+ width:980px; overflow:hidden} 
+ 
+#main_left{ float:left;} 
+#main_right{ float:right;}  */
+*{
+	margin:0px;
+	padding:0px;
+}
+
+img {border: 0; vertical-align:middle;}
+ol, ul{
+	overflow:hidden;
+}
+li{
+	list-style: none;
+	border:#0C0 0px solid;
+	padding-left:0px;
+} 
+
+div#header{
+	border:#0C0 0px solid;
+	height:auto;
+	margin:auto;
+}
+
+div#testName{
+	border:#30F 0px solid;
+	margin:auto;
+}
+
+div#testName h1{
+	text-align:center;
+	border:#30F 0px solid;
+}
+
+div#testPage{
+	border:#900 0px solid;
+	margin:auto;
+	overflow:hidden;
+	min-height: 500px;
+}
+
+div#quesArea{
+	border:#0FF 0px solid;
+}
+
+div#quesArea h4{
+	width: 100%;
+	min-height:40px;
+}
+
+.progress{
+	clear: both;
+}
+
+
+.container{
+	max-width:1000px;
+}
+
+.row{
+	background:#FFFFFF;
+	border:1px solid;
+}
+
+
+#loginPage{
+	min-height: 500px;
+	text-align: center;
+
+}
+
+#loginInput{
+	width: 50%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+tbody, tr, th{
+	border: 1px solid;
+}
+
+th{
+	text-align: "center";
+}
+
+td{
+	border-left: 1px solid;
+	border-right: 1px solid;
+}
+
+.resultTable{
+	width: 90%;
+	min-height: 400px;
+	margin-left: 5%;
+}
+
+.abilityTable1, .abilityTable2, .abilityTable3,.abilityTable4{
+	width: 80%;
+	min-height: 400px;
+	margin-left: 10%;
+}
+
+.willTitle,.talentTitle{
+	height:50px;
+}
+
+tr.trBlank, tr.trAbility{
+	border-top: 0px solid;
+	border-bottom: 0px solid;
+}
+
+tr.trAbility td{
+	top:5px;
+	padding:0px;
+}
